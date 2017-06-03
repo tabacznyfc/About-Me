@@ -19,6 +19,7 @@ else {
 }
 }
 
+function age(){
 var question1 = prompt('Am I over thirty?');
 
 if(question1.toLowerCase() === myAnswer1){
@@ -27,6 +28,7 @@ if(question1.toLowerCase() === myAnswer1){
   alert('Sorry wrong!');
 }
 
+function mythical(){
 var question2 = prompt('Do I want a unicorn?');
 
 if(question2.toUpperCase() === myAnswer2){
@@ -34,7 +36,9 @@ if(question2.toUpperCase() === myAnswer2){
 } else{
   alert('Sorry wrong!');
 }
+}
 
+function hooky(){
 var question3 = prompt('Have I ever skipped school?');
 
 if(question3.toLowerCase() === myAnswer3){
@@ -42,7 +46,9 @@ if(question3.toLowerCase() === myAnswer3){
 } else{
   alert('Sorry wrong!');
 }
+}
 
+function everyYear(){
 var question4 = prompt('Have I ever forgot my anniversary?');
 
 if (question4.toUpperCase() === myAnswer4){
@@ -50,14 +56,18 @@ if (question4.toUpperCase() === myAnswer4){
 } else{
   alert('Would be crazy to forget such thing lol!');
 }
+}
 
+function backToThe(){
 var question5 = prompt('Do I think about the future?')
 if (question5.toLowerCase() === myAnswer5){
     alert('Yes I do!');
 } else{
   alert('Who does not think about the future');
 }
+}
 
+function ninjaTurtles(){
 var question6 = prompt('Do I like pizza?');
 
 if (question6.toUpperCase() === myAnswer6){
@@ -65,6 +75,12 @@ if (question6.toUpperCase() === myAnswer6){
 } else{
   alert('Who does not like pizza');
 }
-
+}
 
 gameTime();
+age();
+mythical();
+hooky();
+everyYear();
+backToThe();
+ninjaTurtles();
