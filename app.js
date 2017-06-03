@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 var myAnswer1 = 'no' || 'n';
 var myAnswer2 = 'YES' || 'Y';
 var myAnswer3 = 'yes' || 'y';
@@ -9,12 +9,12 @@ var myAnswer6 = 'yes' || 'y';
 var userName = prompt('Hello what is your name?');
 alert('Hello ' + userName);
 
+
 function gameTime(){
 var game = prompt('Would you like to play a game? y/n');
 if ( (game.toLowerCase() === 'y') || (game.toLowerCase() === 'yes') ){
   alert('Let\s play');
-}
-else {
+} else {
   alert('Let\'s play anyway');
 }
 }
@@ -27,13 +27,14 @@ if(question1.toLowerCase() === myAnswer1){
 } else{
   alert('Sorry wrong!');
 }
+}
 
 function mythical(){
 var question2 = prompt('Do I want a unicorn?');
 
 if(question2.toUpperCase() === myAnswer2){
   alert('Woohoo you got it correct!');
-} else{
+} else {
   alert('Sorry wrong!');
 }
 }
