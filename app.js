@@ -1,25 +1,25 @@
 'use strict'
-var myAnswer1 = 'no'
-var myAnswer2 = 'YES'
-var myAnswer3 = 'yes'
-var myAnswer4 = 'no'
-var myAnswer5 = 'YES'
-var myAnswer6 = 'yes'
+var myAnswer1 = 'no' || 'n';
+var myAnswer2 = 'YES' || 'Y';
+var myAnswer3 = 'yes' || 'y';
+var myAnswer4 = 'no' || 'n';
+var myAnswer5 = 'YES' || 'Y';
+var myAnswer6 = 'yes' || 'y';
 
 var userName = prompt('Hello what is your name?');
 alert('Hello ' + userName);
 
+function gameTime(){
 var game = prompt('Would you like to play a game? y/n');
-if ((game === 'y') || (game === 'yes') || (game === 'n') ||(game === 'no')){
+if ( (game.toLowerCase() === 'y') || (game.toLowerCase() === 'yes') ){
   alert('Let\s play');
 }
-else{
-  alert('Ok let\s not');
+else {
+  alert('Let\'s play anyway');
+}
 }
 
-
-function guessingGame(){
-  var question1 = prompt('Am I over thirty?');
+var question1 = prompt('Am I over thirty?');
   if(question1.toLowerCase() === myAnswer1){
     alert('Yes Correct!');
   }
@@ -63,5 +63,4 @@ function guessingGame(){
     }
   }
 
-
-guessingGame();
+gameTime();
