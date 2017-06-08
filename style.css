@@ -3,3 +3,12 @@ body {
   background-size: 60px 60px;
   padding: 20px;
 }
+
+h1 {
+  text-align: center;
+  
+}
+
+li {
+  font-size: large;
+}
