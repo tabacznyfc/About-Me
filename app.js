@@ -72,9 +72,9 @@ function ninjaTurtles(){
 var question6 = prompt('Do I like pizza?');
 
 if (question6.toUpperCase() === myAnswer6){
-  alert('Correct');
+  alert('PIZZA IS LIFE');
 } else{
-  alert('Who does not like pizza');
+  alert('you dont like pizza!');
 }
 }
 
