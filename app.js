@@ -5,6 +5,8 @@ var myAnswer3 = 'yes' || 'y';
 var myAnswer4 = 'no' || 'n';
 var myAnswer5 = 'YES' || 'Y';
 var myAnswer6 = 'yes' || 'y';
+var numCountries = 4;
+var bonusQues = false;
 
 var userName = prompt('Hello what is your name?');
 alert('Hello ' + userName);
@@ -49,8 +51,9 @@ if(question3.toLowerCase() === myAnswer3) {
 }
 }
 
-function everyYear()  {
-var question4 = prompt('Have I ever forgot my anniversary?');
+function everyYear(){
+var question4 = prompt('Have I ever forgotten my anniversary?');
+
 
 if (question4.toUpperCase() === myAnswer4)  {
   alert('Can\t never forget that');
@@ -64,7 +67,7 @@ var question5 = prompt('Do I think about the future?')
 if (question5.toLowerCase() === myAnswer5)  {
     alert('Yes I do!');
 } else{
-  alert('Who does not think about the future');
+  alert('Who doesnt think about the future');
 }
 }
 
@@ -74,9 +77,24 @@ var question6 = prompt('Do I like pizza?');
 if (question6.toUpperCase() === myAnswer6)  {
   alert('PIZZA IS LIFE');
 } else{
-  alert('you dont like pizza!');
+  
+  alert('pizza is life');
 }
 }
+while (!bonusQues) {
+  var question7 = parseInt(prompt("Bonus question: How many countries have I travelled to? *Hint 1-10*"));
+  if (question7 === numCountries){
+    alert("Yup I have been to 4 countries");
+    bonusQues = true;
+  } else if (numCountries < question7) {
+    alert("You're too high, guess again!");
+
+  }else if (numCountries > question7) {
+   alert("You're too low, guess again!");
+
+  }
+
+};
 
 gameTime();
 age();
