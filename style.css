@@ -77,3 +77,12 @@ footer {
 .li {
   margin: 10px 0px 0px 0px;
 }
+
+h1 {
+  text-align: center;
+  
+}
+
+li {
+  font-size: large;
+}
