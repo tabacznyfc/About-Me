@@ -1,7 +1,81 @@
+nav.nav-bar {
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,.15);
+  overflow: hidden;
+  text-align: right;
+  background-color: floralwhite;
+  padding-right: 2%;
+  padding-top: 2%;
+
+}
+
+nav.nav-bar > ul {
+  list-style-type: none;
+}
+
+nav.nav-bar > ul > li {
+  display: block;
+}
+
+header.name {
+  text-align: center;
+  font-family: 'Tangerine', serif;
+  font-size: 140px;
+  padding-top: 30px;
+
+}
+
 body {
-  background: linear-gradient(45deg, #fb3 25%, #58a 0, #58a 50%, #fb3 0, #fb3 75%, #58a 0);
-  background-size: 60px 60px;
-  padding: 20px;
+  background-color: gray;
+}
+
+.large-letter {
+  font-size: 3.857142em;
+}
+
+.bio {
+  text-align: left;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    border-bottom-style: double;
+    border-top-style: double;
+    border-left-style: double;
+    border-right-style: double;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-width: thick;
+
+}
+
+.Experience {
+  font-family: 'Tangerine', serif;
+  font-size: 40px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 50px;
+  font-family:
+}
+
+.wrapper {
+  text-align: left;
+  font-size: 40px;
+  font-family: 'Tangerine', serif;
+
+}
+
+.icon {
+  list-style-image: url("img/mustache-shape.png");
+}
+
+.li {
+  margin: 10px 0px 0px 0px;
 }
 
 h1 {
