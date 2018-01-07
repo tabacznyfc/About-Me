@@ -64,8 +64,16 @@ footer {
 }
 
 .wrapper {
-  text-align: center;
+  text-align: left;
   font-size: 40px;
   font-family: 'Tangerine', serif;
 
+}
+
+.icon {
+  list-style-image: url("img/mustache-shape.png");
+}
+
+.li {
+  margin: 10px 0px 0px 0px;
 }
